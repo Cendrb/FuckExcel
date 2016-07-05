@@ -1,0 +1,6 @@
+<tr>
+  <td><%= row.order_number %></td>
+  <% row.data.split(',').each do |column| %>
+    <td class="working_cell"><%= column %></td>
+  <% end %>
+</tr>
